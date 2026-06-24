@@ -1,0 +1,27 @@
+# Example
+# Key-value pair
+name: 10
+
+more_name: "Written like this"
+
+config:
+  path: first-directory/file.yaml
+  environment: staging
+
+# Array
+colors:
+  - red
+  - green
+  - blue
+  - 10
+
+# Array of objects
+color_objects:
+  - name: red
+    hex: ff0000
+    labels:
+      - experimental
+      - accessibility
+
+  - name: green
+    hex: 00ff00
